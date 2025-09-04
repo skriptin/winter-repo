@@ -1,0 +1,311 @@
+
+This report is based on 633 studies with an open pit component.
+
+==================== ADVANCED DEPOSIT TYPE ANALYSIS ====================
+
+--- Analysis 1: Counts of Unique Deposit TYPE COMBINATIONS (Collapsed) ---
+deposit_combination
+epithermal                                                                                                             76
+porphyry                                                                                                               73
+orogenic_gold                                                                                                          67
+other_unspecified                                                                                                      36
+iron_formation                                                                                                         29
+stratabound_other                                                                                                      25
+epithermal, porphyry                                                                                                   22
+volcanogenic_massive_sulfide                                                                                           22
+pegmatite                                                                                                              15
+iocg                                                                                                                   12
+carlin_type                                                                                                            12
+porphyry, skarn                                                                                                        11
+laterite_nickel_cobalt                                                                                                 10
+layered_mafic_ultramafic                                                                                               10
+carbonatite_alkaline_complex                                                                                            9
+phosphate                                                                                                               8
+hydrothermal_replacement                                                                                                8
+intrusion_related_gold_system                                                                                           8
+layered_mafic_ultramafic, magmatic_sulfide                                                                              6
+kimberlite_lamproite                                                                                                    6
+sedex                                                                                                                   6
+placer                                                                                                                  6
+skarn                                                                                                                   6
+evaporite_hosted                                                                                                        5
+intrusion_related_gold_system, orogenic_gold                                                                            5
+uranium                                                                                                                 5
+epithermal, intrusion_related_gold_system                                                                               5
+carlin_type, orogenic_gold                                                                                              5
+bif_hosted_gold, orogenic_gold                                                                                          5
+epithermal, porphyry, skarn                                                                                             4
+orogenic_gold, porphyry                                                                                                 3
+carbonate_replacement, epithermal, porphyry, skarn                                                                      3
+carbonate_replacement, skarn                                                                                            3
+epithermal, intrusion_related_gold_system, porphyry                                                                     3
+polymetallic_vein                                                                                                       3
+carlin_type, epithermal                                                                                                 3
+iocg, skarn                                                                                                             3
+residual_supergene_enrichment                                                                                           3
+epithermal, skarn                                                                                                       3
+epithermal, polymetallic_vein                                                                                           3
+orogenic_gold, volcanogenic_massive_sulfide                                                                             2
+carbonate_replacement, mvt                                                                                              2
+komatiite_hosted_nickel, layered_mafic_ultramafic                                                                       2
+carbonate_replacement, carlin_type                                                                                      2
+intrusion_related_gold_system, orogenic_gold, porphyry                                                                  2
+carbonate_replacement                                                                                                   2
+orogenic_gold, placer                                                                                                   2
+carlin_type, skarn                                                                                                      2
+carlin_type, epithermal, orogenic_gold                                                                                  2
+carbonate_replacement, porphyry                                                                                         2
+komatiite_hosted_nickel, magmatic_sulfide                                                                               2
+epithermal, iocg                                                                                                        2
+epithermal, orogenic_gold, porphyry                                                                                     2
+stratiform_copper                                                                                                       2
+mvt                                                                                                                     2
+carbonatite_alkaline_complex, pegmatite                                                                                 2
+epithermal, orogenic_gold                                                                                               2
+intrusion_related_gold_system, porphyry                                                                                 2
+other_unspecified, stratabound_other                                                                                    2
+carbonatite_alkaline_complex, kimberlite_lamproite                                                                      1
+carbonate_replacement, carlin_type, epithermal, laterite_nickel_cobalt, orogenic_gold, porphyry, skarn                  1
+epithermal, intrusion_related_gold_system, porphyry, skarn                                                              1
+epithermal, layered_mafic_ultramafic, magmatic_sulfide                                                                  1
+layered_mafic_ultramafic, stratiform_copper                                                                             1
+residual_supergene_enrichment, stratiform_copper                                                                        1
+carlin_type, epithermal, placer, skarn                                                                                  1
+porphyry, residual_supergene_enrichment                                                                                 1
+carbonate_replacement, orogenic_gold                                                                                    1
+iocg, porphyry                                                                                                          1
+orogenic_gold, porphyry, sedex, volcanogenic_massive_sulfide                                                            1
+orogenic_gold, polymetallic_vein                                                                                        1
+hydrothermal_replacement, polymetallic_vein                                                                             1
+epithermal, iocg, polymetallic_vein                                                                                     1
+other_unspecified, residual_supergene_enrichment                                                                        1
+hydrothermal_replacement, residual_supergene_enrichment                                                                 1
+epithermal, placer                                                                                                      1
+carlin_type, epithermal, skarn                                                                                          1
+epithermal, hydrothermal_replacement, stratabound_other                                                                 1
+carlin_type, hydrothermal_replacement                                                                                   1
+pegmatite, uranium                                                                                                      1
+sedex, stratiform_copper                                                                                                1
+epithermal, intrusion_related_gold_system, orogenic_gold, volcanogenic_massive_sulfide                                  1
+polymetallic_vein, stratabound_other                                                                                    1
+carlin_type, intrusion_related_gold_system                                                                              1
+carbonate_replacement, intrusion_related_gold_system                                                                    1
+epithermal, orogenic_gold, volcanogenic_massive_sulfide                                                                 1
+mvt, orogenic_gold, porphyry, volcanogenic_massive_sulfide                                                              1
+epithermal, orogenic_gold, porphyry, skarn                                                                              1
+carbonatite_alkaline_complex, phosphate                                                                                 1
+laterite_bauxite                                                                                                        1
+hydrothermal_replacement, sedex, stratiform_copper                                                                      1
+greisen                                                                                                                 1
+porphyry, volcanogenic_massive_sulfide                                                                                  1
+greisen, pegmatite, placer                                                                                              1
+iocg, residual_supergene_enrichment                                                                                     1
+carbonate_replacement, carlin_type, porphyry                                                                            1
+bif_hosted_gold, epithermal, porphyry                                                                                   1
+intrusion_related_gold_system, orogenic_gold, polymetallic_vein                                                         1
+epithermal, volcanogenic_massive_sulfide                                                                                1
+iron_formation, sedex                                                                                                   1
+intrusion_related_gold_system, orogenic_gold, volcanogenic_massive_sulfide                                              1
+evaporite_hosted, sedex                                                                                                 1
+residual_supergene_enrichment, stratabound_other                                                                        1
+komatiite_hosted_nickel                                                                                                 1
+carlin_type, evaporite_hosted, pegmatite                                                                                1
+carbonate_replacement, iocg, porphyry                                                                                   1
+komatiite_hosted_nickel, layered_mafic_ultramafic, orogenic_gold, pegmatite, porphyry, volcanogenic_massive_sulfide     1
+Name: count, dtype: int64
+
+--- Analysis 2: Total Occurrences of Each INDIVIDUAL Deposit Type (Atomized) ---
+atomized_deposit_type
+epithermal                       143
+porphyry                         139
+orogenic_gold                    108
+skarn                             40
+other_unspecified                 39
+carlin_type                       33
+volcanogenic_massive_sulfide      32
+intrusion_related_gold_system     31
+iron_formation                    30
+stratabound_other                 30
+iocg                              21
+pegmatite                         21
+layered_mafic_ultramafic          21
+carbonate_replacement             19
+carbonatite_alkaline_complex      13
+hydrothermal_replacement          13
+polymetallic_vein                 11
+sedex                             11
+placer                            11
+laterite_nickel_cobalt            11
+magmatic_sulfide                   9
+phosphate                          9
+residual_supergene_enrichment      9
+kimberlite_lamproite               7
+evaporite_hosted                   7
+uranium                            6
+stratiform_copper                  6
+komatiite_hosted_nickel            6
+bif_hosted_gold                    6
+mvt                                5
+greisen                            2
+laterite_bauxite                   1
+Name: count, dtype: int64
+
+Cost per ton move grouped by atomized deposite type
+                               count       mean        std    min     25%    50%     75%     max
+atomized_deposit_type                                                                           
+pegmatite                       11.0  18.403636  32.818038  1.940  4.4500  5.440  7.5550  109.19
+other_unspecified               16.0   5.582187   7.300260  2.130  2.2275  2.815  5.2625   31.64
+orogenic_gold                   66.0   3.871061   5.147740  1.000  2.1125  2.670  3.0875   37.09
+carlin_type                     18.0   3.789167   2.933211  1.365  1.8675  2.545  4.5575   10.92
+stratabound_other               16.0   3.683125   2.168304  0.800  1.8475  3.460  5.0300    8.82
+iron_formation                  19.0   3.367895   2.595390  1.710  2.0500  2.700  3.0600   12.00
+intrusion_related_gold_system   18.0   3.222500   2.585458  1.365  1.7425  2.045  3.4175   11.80
+volcanogenic_massive_sulfide    18.0   3.220000   1.645575  1.400  2.2775  2.765  3.1225    7.88
+carbonate_replacement           11.0   2.804545   1.989625  0.910  1.6000  2.160  3.2750    7.89
+layered_mafic_ultramafic        13.0   2.733077   1.703733  1.630  1.9000  2.210  2.3200    7.88
+epithermal                      74.0   2.660027   1.921389  0.240  1.7450  2.035  2.6725   12.10
+porphyry                        80.0   2.538387   1.860032  0.070  1.6675  2.025  2.3250   11.80
+skarn                           20.0   2.461600   1.953329  0.992  1.6900  1.860  2.2100    9.84
+iocg                            12.0   1.956667   0.541216  1.200  1.5600  1.855  2.1675    3.01
+
+--- Initial Capex (in Millions) by Year ---
+        count         mean          std       min         25%      50%        75%      max
+year                                                                                      
+2011.0    1.0  3230.700000          NaN  3230.700  3230.70000  3230.70  3230.7000  3230.70
+2012.0   16.0   499.746438   565.539121    21.400   116.02500   205.15   849.0000  2036.90
+2013.0   49.0   840.400747  1357.681287     3.700    42.00000   260.80   931.9000  5979.00
+2014.0   44.0   295.846773   400.773384     7.749    66.20000   161.15   332.2000  1963.00
+2015.0   25.0   783.683720  1976.857432     3.420    37.30000   127.30   369.9000  9384.20
+2016.0   32.0   447.887344   703.363021     0.000    85.62500   193.10   393.1500  3219.57
+2017.0   30.0   331.969433   540.963162     3.500    44.12575   152.95   276.2350  2363.00
+2018.0   42.0   380.811714   526.550183     7.042    74.02500   189.20   340.2750  2570.00
+2019.0   19.0   339.400526   345.098303    28.400   107.95000   220.00   397.0000  1266.00
+2020.0   23.0   246.674130   295.775970     0.810    76.35000   141.00   308.5500  1347.00
+2021.0   28.0   798.520536  1760.264369     5.000    70.39000   223.57   545.2500  7402.00
+2022.0   37.0   330.514324   359.806892     1.660    52.77000   281.00   480.8000  1917.00
+2023.0   29.0   782.587138   813.126194     2.500   179.60000   420.40  1339.9000  2556.00
+2024.0   26.0   440.965846   522.985666     8.600   100.65000   325.30   410.7925  2160.20
+
+
+==================== DIRECT FACTOR ANALYSIS ====================
+
+--- FAF 1: Country Distribution ---
+country
+Canada                                    166
+Mexico                                     53
+United States of America                   51
+Brazil                                     35
+United States                              31
+Australia                                  22
+Argentina                                  21
+Peru                                       19
+Chile                                      19
+United States of America (USA)             13
+Mongolia                                    9
+Burkina Faso                                8
+Sweden                                      7
+Namibia                                     7
+the United States of America (USA)          7
+Ghana                                       6
+Turkey                                      6
+Colombia                                    6
+Côte d’Ivoire                               5
+Armenia                                     5
+Senegal                                     5
+Botswana                                    5
+Mali                                        5
+South Africa                                5
+Eritrea                                     4
+Finland                                     4
+Spain                                       4
+Guyana                                      4
+Bulgaria                                    4
+United States of America (U.S.A.)           4
+Philippines                                 4
+Zambia                                      3
+Romania                                     3
+Bolivia                                     3
+Greenland                                   3
+Venezuela                                   3
+Ecuador                                     3
+Ethiopia                                    3
+Guinea                                      3
+Republic of Namibia                         2
+Democratic Republic of the Congo            2
+French Guiana                               2
+Guatemala                                   2
+Malaysia                                    2
+Republic of the Philippines                 2
+Chile and Argentina                         2
+Kazakhstan                                  2
+Panama                                      2
+Sudan                                       2
+Serbia                                      2
+Madagascar                                  2
+USA                                         2
+Nicaragua                                   2
+Russia                                      2
+Liberia                                     2
+Russian Federation                          2
+Ukraine                                     2
+Cuba                                        1
+Guinea-Bissau                               1
+Democratic Republic of Congo (DRC)          1
+Macedonia                                   1
+Sweden and Finland                          1
+Republic of South Africa                    1
+Slovakia                                    1
+Dominican Republic                          1
+Democratic Republic of Congo                1
+Perú                                        1
+the United States of America                1
+Malawi                                      1
+México                                      1
+Portugal                                    1
+Tanzania                                    1
+Indonesia                                   1
+Mauritania                                  1
+Czech Republic                              1
+Republic of Serbia                          1
+Ivory Coast (Côte d’Ivoire)                 1
+Republic of Mali                            1
+Democratic Republic of the Congo (DRC)      1
+Zimbabwe                                    1
+United States of America (US)               1
+Name: count, dtype: int64
+
+--- Open Pit Mining Rate (Calculated) ---
+Statistics for Calculated Mining Rate (tonnes per day):
+count    3.510000e+02
+mean     2.296240e+07
+std      4.100964e+08
+min      2.541030e-01
+25%      2.752183e+01
+50%      7.393714e+01
+75%      4.785237e+02
+max      7.681660e+09
+Name: calculated_mining_rate_tpd, dtype: float64
+
+--- Average Strip Ratio (Direct) ---
+count    380.000000
+mean       3.390937
+std        3.506233
+min        0.120000
+25%        1.075000
+50%        2.300000
+75%        4.747500
+max       33.100000
+Name: stripping_ratio, dtype: float64
+
+--- Total OP Mining Cost (Direct) ---
+Statistics for 'open_pit_mining_cost_dollars_per_t_mined_or_moved':
+count    340.000000
+mean       3.986403
+std        7.452160
+min        0.070000
+25%        1.880000
+50%        2.320000
+75%        3.427500
+max      109.190000
+Name: open_pit_mining_cost_dollars_per_t_mined_or_moved, dtype: float64
+

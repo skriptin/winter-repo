@@ -1,0 +1,585 @@
+Analysis Report for 1484 Mine Studies
+
+
+Counts for each unique mine type:
+mine_type
+open pit       633
+underground    322
+hybrid         204
+Name: count, dtype: int64
+
+Counts for each unique deposit type:
+deposit_type
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins)]                                                                                                                                                                                                                                                                                                                                                                      159
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation)]                                                                                                                                                                                                                                                                                                                                                                    157
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold)]                                                                                                                                                                                                                                                                                                                                                                              102
+[volcanogenic_massive_sulfide (VMS)]                                                                                                                                                                                                                                                                                                                                                                                                             70
+[other_unspecified (unspecified / not classified)]                                                                                                                                                                                                                                                                                                                                                                                               59
+[evaporite_hosted (potash / halite / lithium brine)]                                                                                                                                                                                                                                                                                                                                                                                             56
+[uranium (unconformity-related / sandstone-hosted / vein-type / IOCG-U)]                                                                                                                                                                                                                                                                                                                                                                         46
+[iron_formation (Superior-type BIF Fe / Algoma-type BIF Fe)]                                                                                                                                                                                                                                                                                                                                                                                     32
+[stratabound_other (generic stratabound mineralization)]                                                                                                                                                                                                                                                                                                                                                                                         31
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation)]                                                                                                                                                                                                                                                                                                   30
+[pegmatite (Li / Ta / Be / Sn / rare earth pegmatites)]                                                                                                                                                                                                                                                                                                                                                                                          27
+[skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns)]                                                                                                                                                                                                                                                                                                                                                                                                 18
+[carbonatite_alkaline_complex (REE / Nb / P / rare earth deposits)]                                                                                                                                                                                                                                                                                                                                                                              16
+[carlin_type (sediment-hosted disseminated Au / Carlin-type gold)]                                                                                                                                                                                                                                                                                                                                                                               16
+[iocg (iron oxide copper gold)]                                                                                                                                                                                                                                                                                                                                                                                                                  15
+[sedex (sediment-hosted exhalative)]                                                                                                                                                                                                                                                                                                                                                                                                             13
+[layered_mafic_ultramafic (Ni-Cu-PGE / Bushveld-type)]                                                                                                                                                                                                                                                                                                                                                                                           13
+[intrusion_related_gold_system (IRGS)]                                                                                                                                                                                                                                                                                                                                                                                                           13
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems)]                                                                                                                                                                                                                                                                                             13
+[polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems)]                                                                                                                                                                                                                                                                                                                                                                         13
+[stratiform_copper (Kupferschiefer / red bed copper)]                                                                                                                                                                                                                                                                                                                                                                                            12
+[phosphate (sedimentary / igneous / carbonatite-related phosphate)]                                                                                                                                                                                                                                                                                                                                                                              12
+[hydrothermal_replacement (Ag-Pb-Zn veins / polymetallic veins / carbonate replacement)]                                                                                                                                                                                                                                                                                                                                                         12
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns)]                                                                                                                                                                                                                                                                                                                               12
+[kimberlite_lamproite (diamond deposits)]                                                                                                                                                                                                                                                                                                                                                                                                        11
+[laterite_nickel_cobalt (nickel-cobalt laterite)]                                                                                                                                                                                                                                                                                                                                                                                                11
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), bif_hosted_gold (banded iron formation-hosted gold)]                                                                                                                                                                                                                                                                                                                  11
+[placer (gold / diamonds / tin / titanium placers)]                                                                                                                                                                                                                                                                                                                                                                                              10
+[layered_mafic_ultramafic (Ni-Cu-PGE / Bushveld-type), magmatic_sulfide (Ni-Cu-PGE / Sudbury-type / Noril'sk-type)]                                                                                                                                                                                                                                                                                                                              10
+[mvt (Mississippi Valley Type)]                                                                                                                                                                                                                                                                                                                                                                                                                  10
+[carbonate_replacement (CRD / skarn replacement), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns)]                                                                                                                                                                                                                                                                                                                                                 9
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), porphyry (porphyry copper / porphyry molybdenum / porphyry gold)]                                                                                                                                                                                                                                                                                                    8
+[skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), carbonate_replacement (CRD / skarn replacement)]                                                                                                                                                                                                                                                                                                                                                 6
+[magmatic_sulfide (Ni-Cu-PGE / Sudbury-type / Noril'sk-type)]                                                                                                                                                                                                                                                                                                                                                                                     6
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), intrusion_related_gold_system (IRGS)]                                                                                                                                                                                                                                                                                                                                6
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins)]                                                                                                                                                                                                                                                                                                      6
+[intrusion_related_gold_system (IRGS), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins)]                                                                                                                                                                                                                                                                                                                                  5
+[carbonate_replacement (CRD / skarn replacement)]                                                                                                                                                                                                                                                                                                                                                                                                 5
+[magmatic_sulfide (Ni-Cu-PGE / Sudbury-type / Noril'sk-type), layered_mafic_ultramafic (Ni-Cu-PGE / Bushveld-type)]                                                                                                                                                                                                                                                                                                                               5
+[volcanogenic_massive_sulfide (VMS), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins)]                                                                                                                                                                                                                                                                                                                                    5
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins)]                                                                                                                                                                                                                                                                                            5
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), intrusion_related_gold_system (IRGS)]                                                                                                                                                                                                                                                                                                                                  5
+[skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), iocg (iron oxide copper gold)]                                                                                                                                                                                                                                                                                                                                                                   4
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), intrusion_related_gold_system (IRGS)]                                                                                                                                                                                                                                                              4
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns)]                                                                                                                                                                                                                                                    4
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), carlin_type (sediment-hosted disseminated Au / Carlin-type gold)]                                                                                                                                                                                                                                                                                                    4
+[bif_hosted_gold (banded iron formation-hosted gold)]                                                                                                                                                                                                                                                                                                                                                                                             4
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), carlin_type (sediment-hosted disseminated Au / Carlin-type gold)]                                                                                                                                                                                                                                                                                                      4
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), carbonate_replacement (CRD / skarn replacement)]                                                                                                                                                                                                                                                                                                                     3
+[sedex (sediment-hosted exhalative), stratabound_other (generic stratabound mineralization)]                                                                                                                                                                                                                                                                                                                                                      3
+[polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems), hydrothermal_replacement (Ag-Pb-Zn veins / polymetallic veins / carbonate replacement)]                                                                                                                                                                                                                                                                                  3
+[hydrothermal_replacement (Ag-Pb-Zn veins / polymetallic veins / carbonate replacement), polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems)]                                                                                                                                                                                                                                                                                  3
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), layered_mafic_ultramafic (Ni-Cu-PGE / Bushveld-type)]                                                                                                                                                                                                                                                                                                                  3
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), placer (gold / diamonds / tin / titanium placers)]                                                                                                                                                                                                                                                                                                                     3
+[layered_mafic_ultramafic (Ni-Cu-PGE / Bushveld-type), komatiite_hosted_nickel (komatiite-associated Ni sulfide)]                                                                                                                                                                                                                                                                                                                                 3
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), volcanogenic_massive_sulfide (VMS)]                                                                                                                                                                                                                                                                                                                                  3
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins)]                                                                                                                                                                                                                          3
+[pegmatite (Li / Ta / Be / Sn / rare earth pegmatites), evaporite_hosted (potash / halite / lithium brine)]                                                                                                                                                                                                                                                                                                                                       3
+[residual_supergene_enrichment (supergene copper enrichment / residual deposits)]                                                                                                                                                                                                                                                                                                                                                                 3
+[bif_hosted_gold (banded iron formation-hosted gold), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins)]                                                                                                                                                                                                                                                                                                                   3
+[skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation)]                                                                                                                                                                                                                                                                                                                      3
+[stratiform_copper (Kupferschiefer / red bed copper), residual_supergene_enrichment (supergene copper enrichment / residual deposits)]                                                                                                                                                                                                                                                                                                            2
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems)]                                                                                                                                                                                                                                                                                                2
+[skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins)]                                                                                                                                                                                                                                                                                                                        2
+[carlin_type (sediment-hosted disseminated Au / Carlin-type gold), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns)]                                                                                                                                                                                                                                                                                                                                2
+[sedex (sediment-hosted exhalative), stratiform_copper (Kupferschiefer / red bed copper)]                                                                                                                                                                                                                                                                                                                                                         2
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), carlin_type (sediment-hosted disseminated Au / Carlin-type gold), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins)]                                                                                                                                                                                                                          2
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), volcanogenic_massive_sulfide (VMS)]                                                                                                                                                                                                                                                                                                                                    2
+[mvt (Mississippi Valley Type), carbonate_replacement (CRD / skarn replacement)]                                                                                                                                                                                                                                                                                                                                                                  2
+[skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), porphyry (porphyry copper / porphyry molybdenum / porphyry gold)]                                                                                                                                                                                                                                                                                                                                2
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), carbonate_replacement (CRD / skarn replacement), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns)]                                                                                                                                                                                                   2
+[pegmatite (Li / Ta / Be / Sn / rare earth pegmatites), carbonatite_alkaline_complex (REE / Nb / P / rare earth deposits)]                                                                                                                                                                                                                                                                                                                        2
+[carbonatite_alkaline_complex (REE / Nb / P / rare earth deposits), pegmatite (Li / Ta / Be / Sn / rare earth pegmatites)]                                                                                                                                                                                                                                                                                                                        2
+[intrusion_related_gold_system (IRGS), carbonate_replacement (CRD / skarn replacement)]                                                                                                                                                                                                                                                                                                                                                           2
+[komatiite_hosted_nickel (komatiite-associated Ni sulfide), magmatic_sulfide (Ni-Cu-PGE / Sudbury-type / Noril'sk-type)]                                                                                                                                                                                                                                                                                                                          2
+[carbonate_replacement (CRD / skarn replacement), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation)]                                                                                                                                                                                                                                                                                                                     2
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), porphyry (porphyry copper / porphyry molybdenum / porphyry gold), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns)]                                                                                                                                                                                                                                                    2
+[iocg (iron oxide copper gold), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns)]                                                                                                                                                                                                                                                                                                                                                                   2
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), iocg (iron oxide copper gold)]                                                                                                                                                                                                                                                                                                                                       2
+[magmatic_sulfide (Ni-Cu-PGE / Sudbury-type / Noril'sk-type), komatiite_hosted_nickel (komatiite-associated Ni sulfide)]                                                                                                                                                                                                                                                                                                                          2
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), carbonate_replacement (CRD / skarn replacement)]                                                                                                                                                                                                                                                                                                                               2
+[carbonate_replacement (CRD / skarn replacement), hydrothermal_replacement (Ag-Pb-Zn veins / polymetallic veins / carbonate replacement)]                                                                                                                                                                                                                                                                                                         2
+[stratabound_other (generic stratabound mineralization), other_unspecified (unspecified / not classified)]                                                                                                                                                                                                                                                                                                                                        2
+[greisen (Sn-W veins)]                                                                                                                                                                                                                                                                                                                                                                                                                            2
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), residual_supergene_enrichment (supergene copper enrichment / residual deposits)]                                                                                                                                                                                                                                                                                               1
+[polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems), iocg (iron oxide copper gold)]                                                                                                                                                                                                                                                                                                                                           1
+[layered_mafic_ultramafic (Ni-Cu-PGE / Bushveld-type), stratiform_copper (Kupferschiefer / red bed copper)]                                                                                                                                                                                                                                                                                                                                       1
+[intrusion_related_gold_system (IRGS), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns)]                                                                                                                                                                                                                                                                                                                                                            1
+[volcanogenic_massive_sulfide (VMS), porphyry (porphyry copper / porphyry molybdenum / porphyry gold)]                                                                                                                                                                                                                                                                                                                                            1
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), porphyry (porphyry copper / porphyry molybdenum / porphyry gold), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins)]                                                                                                                                                                                                                          1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), carbonate_replacement (CRD / skarn replacement), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), carlin_type (sediment-hosted disseminated Au / Carlin-type gold)]                                                                                                                                 1
+[volcanogenic_massive_sulfide (VMS), carbonate_replacement (CRD / skarn replacement)]                                                                                                                                                                                                                                                                                                                                                             1
+[stratabound_other (generic stratabound mineralization), uranium (unconformity-related / sandstone-hosted / vein-type / IOCG-U)]                                                                                                                                                                                                                                                                                                                  1
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), hydrothermal_replacement (Ag-Pb-Zn veins / polymetallic veins / carbonate replacement)]                                                                                                                                                                                                                                                                                1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), iocg (iron oxide copper gold)]                                                                                                                                                                                                                                                                                                                                                 1
+[carbonate_replacement (CRD / skarn replacement), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins)]                                                                                                                                                                                                                                                                                                                       1
+[volcanogenic_massive_sulfide (VMS), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation)]                                                                                                                                                                                                                                                                                                                                  1
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), volcanogenic_massive_sulfide (VMS), sedex (sediment-hosted exhalative), porphyry (porphyry copper / porphyry molybdenum / porphyry gold)]                                                                                                                                                                                                                              1
+[polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins)]                                                                                                                                                                                                                                                                                                1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), placer (gold / diamonds / tin / titanium placers)]                                                                                                                                                                                                                                                                                                                             1
+[placer (gold / diamonds / tin / titanium placers), kimberlite_lamproite (diamond deposits)]                                                                                                                                                                                                                                                                                                                                                      1
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), carlin_type (sediment-hosted disseminated Au / Carlin-type gold), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), placer (gold / diamonds / tin / titanium placers)]                                                                                                                                                                                                 1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), greisen (Sn-W veins)]                                                                                                                                                                                                                                                                                                                                                          1
+[komatiite_hosted_nickel (komatiite-associated Ni sulfide), layered_mafic_ultramafic (Ni-Cu-PGE / Bushveld-type)]                                                                                                                                                                                                                                                                                                                                 1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), intrusion_related_gold_system (IRGS)]                                                                                                                                                                                    1
+[bif_hosted_gold (banded iron formation-hosted gold), iron_formation (Superior-type BIF Fe / Algoma-type BIF Fe)]                                                                                                                                                                                                                                                                                                                                 1
+[volcanogenic_massive_sulfide (VMS), intrusion_related_gold_system (IRGS)]                                                                                                                                                                                                                                                                                                                                                                        1
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation)]                                                                                                                                                                                                                                                                                            1
+[iocg (iron oxide copper gold), other_unspecified (unspecified / not classified)]                                                                                                                                                                                                                                                                                                                                                                 1
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), iocg (iron oxide copper gold), polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems)]                                                                                                                                                                                                                                                               1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), volcanogenic_massive_sulfide (VMS), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns)]                                                                                                                                                                                                                1
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), carbonate_replacement (CRD / skarn replacement)]                                                                                                                                                                                                                                                                                                                       1
+[sedex (sediment-hosted exhalative), carbonate_replacement (CRD / skarn replacement)]                                                                                                                                                                                                                                                                                                                                                             1
+[mvt (Mississippi Valley Type), polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems), stratabound_other (generic stratabound mineralization)]                                                                                                                                                                                                                                                                                   1
+[skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), carlin_type (sediment-hosted disseminated Au / Carlin-type gold)]                                                                                                                                                                                                                                                                                                                                1
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), volcanogenic_massive_sulfide (VMS), intrusion_related_gold_system (IRGS), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins)]                                                                                                                                                                                                                  1
+[carbonate_replacement (CRD / skarn replacement), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems)]                                                                                                                                                                                                                                                                         1
+[intrusion_related_gold_system (IRGS), volcanogenic_massive_sulfide (VMS)]                                                                                                                                                                                                                                                                                                                                                                        1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), intrusion_related_gold_system (IRGS)]                                                                                                                                                                                                                                                                1
+[intrusion_related_gold_system (IRGS), residual_supergene_enrichment (supergene copper enrichment / residual deposits)]                                                                                                                                                                                                                                                                                                                           1
+[magmatic_sulfide (Ni-Cu-PGE / Sudbury-type / Noril'sk-type), sedex (sediment-hosted exhalative)]                                                                                                                                                                                                                                                                                                                                                 1
+[intrusion_related_gold_system (IRGS), porphyry (porphyry copper / porphyry molybdenum / porphyry gold)]                                                                                                                                                                                                                                                                                                                                          1
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems), stratabound_other (generic stratabound mineralization)]                                                                                                                                                                                                                                        1
+[uranium (unconformity-related / sandstone-hosted / vein-type / IOCG-U), pegmatite (Li / Ta / Be / Sn / rare earth pegmatites)]                                                                                                                                                                                                                                                                                                                   1
+[pegmatite (Li / Ta / Be / Sn / rare earth pegmatites), polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems)]                                                                                                                                                                                                                                                                                                                   1
+[carlin_type (sediment-hosted disseminated Au / Carlin-type gold), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins)]                                                                                                                                                                                                                                                                                                      1
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns)]                                                                                                                                                                                                                                                                                                                      1
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), hydrothermal_replacement (Ag-Pb-Zn veins / polymetallic veins / carbonate replacement), stratabound_other (generic stratabound mineralization)]                                                                                                                                                                                                                      1
+[volcanogenic_massive_sulfide (VMS), magmatic_sulfide (Ni-Cu-PGE / Sudbury-type / Noril'sk-type), komatiite_hosted_nickel (komatiite-associated Ni sulfide)]                                                                                                                                                                                                                                                                                      1
+[layered_mafic_ultramafic (Ni-Cu-PGE / Bushveld-type), other_unspecified (unspecified / not classified)]                                                                                                                                                                                                                                                                                                                                          1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), intrusion_related_gold_system (IRGS), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins)]                                                                                                                                    1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), hydrothermal_replacement (Ag-Pb-Zn veins / polymetallic veins / carbonate replacement)]                                                                                                                                                                                                                                                                                        1
+[residual_supergene_enrichment (supergene copper enrichment / residual deposits), other_unspecified (unspecified / not classified)]                                                                                                                                                                                                                                                                                                               1
+[hydrothermal_replacement (Ag-Pb-Zn veins / polymetallic veins / carbonate replacement), residual_supergene_enrichment (supergene copper enrichment / residual deposits)]                                                                                                                                                                                                                                                                         1
+[carbonatite_alkaline_complex (REE / Nb / P / rare earth deposits), kimberlite_lamproite (diamond deposits)]                                                                                                                                                                                                                                                                                                                                      1
+[layered_mafic_ultramafic (Ni-Cu-PGE / Bushveld-type), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), magmatic_sulfide (Ni-Cu-PGE / Sudbury-type / Noril'sk-type)]                                                                                                                                                                                                                                                   1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), intrusion_related_gold_system (IRGS)]                                                                                                                                                                                                              1
+[hydrothermal_replacement (Ag-Pb-Zn veins / polymetallic veins / carbonate replacement), carbonate_replacement (CRD / skarn replacement)]                                                                                                                                                                                                                                                                                                         1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), carbonate_replacement (CRD / skarn replacement), laterite_nickel_cobalt (nickel-cobalt laterite), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), carlin_type (sediment-hosted disseminated Au / Carlin-type gold)]      1
+[polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems), stratabound_other (generic stratabound mineralization)]                                                                                                                                                                                                                                                                                                                  1
+[laterite_bauxite (aluminum laterite / bauxite)]                                                                                                                                                                                                                                                                                                                                                                                                  1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), carbonate_replacement (CRD / skarn replacement), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation)]                                                                                                                                                                                                   1
+[sedex (sediment-hosted exhalative), hydrothermal_replacement (Ag-Pb-Zn veins / polymetallic veins / carbonate replacement), stratiform_copper (Kupferschiefer / red bed copper)]                                                                                                                                                                                                                                                                 1
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), carlin_type (sediment-hosted disseminated Au / Carlin-type gold)]                                                                                                                                                                                                                                                    1
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), placer (gold / diamonds / tin / titanium placers)]                                                                                                                                                                                                                                                                                                                   1
+[carlin_type (sediment-hosted disseminated Au / Carlin-type gold), carbonate_replacement (CRD / skarn replacement)]                                                                                                                                                                                                                                                                                                                               1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems)]                                                                                                                                                                                                                            1
+[carlin_type (sediment-hosted disseminated Au / Carlin-type gold), hydrothermal_replacement (Ag-Pb-Zn veins / polymetallic veins / carbonate replacement)]                                                                                                                                                                                                                                                                                        1
+[carbonate_replacement (CRD / skarn replacement), carlin_type (sediment-hosted disseminated Au / Carlin-type gold)]                                                                                                                                                                                                                                                                                                                               1
+[intrusion_related_gold_system (IRGS), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation)]                                                                                                                                                                                                                                                                                                                                1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems)]                                                                                                                                                                                                                                                                                                        1
+[carlin_type (sediment-hosted disseminated Au / Carlin-type gold), intrusion_related_gold_system (IRGS)]                                                                                                                                                                                                                                                                                                                                          1
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), porphyry (porphyry copper / porphyry molybdenum / porphyry gold), intrusion_related_gold_system (IRGS), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns)]                                                                                                                                                                                                              1
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), komatiite_hosted_nickel (komatiite-associated Ni sulfide)]                                                                                                                                                                                                                                                                                                             1
+[carbonate_replacement (CRD / skarn replacement), polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems)]                                                                                                                                                                                                                                                                                                                         1
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), volcanogenic_massive_sulfide (VMS), porphyry (porphyry copper / porphyry molybdenum / porphyry gold)]                                                                                                                                                                                                                                                                  1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins)]                                                                                                                                                                          1
+[skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems), volcanogenic_massive_sulfide (VMS), porphyry (porphyry copper / porphyry molybdenum / porphyry gold), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins)]                                                              1
+[greisen (Sn-W veins), polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems)]                                                                                                                                                                                                                                                                                                                                                    1
+[skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), intrusion_related_gold_system (IRGS)]                                                                                                                                                                                                                                                                                                                                                            1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), carbonate_replacement (CRD / skarn replacement)]                                                                                                                                                                                                   1
+[polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems), carbonate_replacement (CRD / skarn replacement), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns)]                                                                                                                                                                                                                                                                         1
+[carbonatite_alkaline_complex (REE / Nb / P / rare earth deposits), phosphate (sedimentary / igneous / carbonatite-related phosphate)]                                                                                                                                                                                                                                                                                                            1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), intrusion_related_gold_system (IRGS)]                                                                                                                                                                                                                                                                                                                                          1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), intrusion_related_gold_system (IRGS), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins)]                                                                                                                                                                                                                                                                1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), volcanogenic_massive_sulfide (VMS)]                                                                                                                                                                                                                                                                                                                                            1
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), stratabound_other (generic stratabound mineralization)]                                                                                                                                                                                                                                                                                                              1
+[placer (gold / diamonds / tin / titanium placers), pegmatite (Li / Ta / Be / Sn / rare earth pegmatites), greisen (Sn-W veins)]                                                                                                                                                                                                                                                                                                                  1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), volcanogenic_massive_sulfide (VMS), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), intrusion_related_gold_system (IRGS), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins)]                                                                                                1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), volcanogenic_massive_sulfide (VMS), mvt (Mississippi Valley Type), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins)]                                                                                                                                                                                                                                   1
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), volcanogenic_massive_sulfide (VMS), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation)]                                                                                                                                                                                                                                                        1
+[carbonate_replacement (CRD / skarn replacement), mvt (Mississippi Valley Type)]                                                                                                                                                                                                                                                                                                                                                                  1
+[iocg (iron oxide copper gold), residual_supergene_enrichment (supergene copper enrichment / residual deposits)]                                                                                                                                                                                                                                                                                                                                  1
+[intrusion_related_gold_system (IRGS), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), porphyry (porphyry copper / porphyry molybdenum / porphyry gold)]                                                                                                                                                                                                                                                                1
+[layered_mafic_ultramafic (Ni-Cu-PGE / Bushveld-type), iron_formation (Superior-type BIF Fe / Algoma-type BIF Fe), pegmatite (Li / Ta / Be / Sn / rare earth pegmatites), bif_hosted_gold (banded iron formation-hosted gold)]                                                                                                                                                                                                                    1
+[carbonate_replacement (CRD / skarn replacement), polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems), stratabound_other (generic stratabound mineralization)]                                                                                                                                                                                                                                                                 1
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), porphyry (porphyry copper / porphyry molybdenum / porphyry gold)]                                                                                                                                                                                                                                                                                                      1
+[sedex (sediment-hosted exhalative), volcanogenic_massive_sulfide (VMS)]                                                                                                                                                                                                                                                                                                                                                                          1
+[carlin_type (sediment-hosted disseminated Au / Carlin-type gold), porphyry (porphyry copper / porphyry molybdenum / porphyry gold), carbonate_replacement (CRD / skarn replacement)]                                                                                                                                                                                                                                                             1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), bif_hosted_gold (banded iron formation-hosted gold)]                                                                                                                                                                                                                                               1
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), carbonate_replacement (CRD / skarn replacement), mvt (Mississippi Valley Type)]                                                                                                                                                                                                                                                                                        1
+[mvt (Mississippi Valley Type), polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems), stratabound_other (generic stratabound mineralization), carbonate_replacement (CRD / skarn replacement)]                                                                                                                                                                                                                                  1
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), intrusion_related_gold_system (IRGS), polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems)]                                                                                                                                                                                                                                                          1
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), stratiform_copper (Kupferschiefer / red bed copper), intrusion_related_gold_system (IRGS), stratabound_other (generic stratabound mineralization)]                                                                                                                                                                                                                     1
+[sedex (sediment-hosted exhalative), iron_formation (Superior-type BIF Fe / Algoma-type BIF Fe)]                                                                                                                                                                                                                                                                                                                                                  1
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), intrusion_related_gold_system (IRGS), volcanogenic_massive_sulfide (VMS)]                                                                                                                                                                                                                                                                                              1
+[evaporite_hosted (potash / halite / lithium brine), sedex (sediment-hosted exhalative)]                                                                                                                                                                                                                                                                                                                                                          1
+[sedex (sediment-hosted exhalative), mvt (Mississippi Valley Type)]                                                                                                                                                                                                                                                                                                                                                                               1
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), porphyry (porphyry copper / porphyry molybdenum / porphyry gold)]                                                                                                                                                                                                                                                    1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), carbonate_replacement (CRD / skarn replacement), carlin_type (sediment-hosted disseminated Au / Carlin-type gold)]                                                                                                                                                                                                             1
+[magmatic_sulfide (Ni-Cu-PGE / Sudbury-type / Noril'sk-type), stratabound_other (generic stratabound mineralization)]                                                                                                                                                                                                                                                                                                                             1
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), volcanogenic_massive_sulfide (VMS), intrusion_related_gold_system (IRGS)]                                                                                                                                                                                                                                                                                              1
+[orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), bif_hosted_gold (banded iron formation-hosted gold), intrusion_related_gold_system (IRGS)]                                                                                                                                                                                                                                                                             1
+[residual_supergene_enrichment (supergene copper enrichment / residual deposits), stratabound_other (generic stratabound mineralization)]                                                                                                                                                                                                                                                                                                         1
+[intrusion_related_gold_system (IRGS), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), porphyry (porphyry copper / porphyry molybdenum / porphyry gold)]                                                                                                                                                                                                                                                                                          1
+[epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), porphyry (porphyry copper / porphyry molybdenum / porphyry gold), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems)]                                                                                                                                                                            1
+[komatiite_hosted_nickel (komatiite-associated Ni sulfide)]                                                                                                                                                                                                                                                                                                                                                                                       1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), skarn (Cu / Fe / Zn / Pb / Au / Mo / W skarns), iocg (iron oxide copper gold)]                                                                                                                                                                                                                                                                                                 1
+[pegmatite (Li / Ta / Be / Sn / rare earth pegmatites), evaporite_hosted (potash / halite / lithium brine), carlin_type (sediment-hosted disseminated Au / Carlin-type gold)]                                                                                                                                                                                                                                                                     1
+[polymetallic_vein (silver-lead-zinc veins / polymetallic vein systems), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation)]                                                                                                                                                                                                                                                                                              1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), iocg (iron oxide copper gold), carbonate_replacement (CRD / skarn replacement)]                                                                                                                                                                                                                                                                                                1
+[porphyry (porphyry copper / porphyry molybdenum / porphyry gold), epithermal (low-sulfidation / high-sulfidation / intermediate-sulfidation), intrusion_related_gold_system (IRGS), carbonate_replacement (CRD / skarn replacement)]                                                                                                                                                                                                             1
+[pegmatite (Li / Ta / Be / Sn / rare earth pegmatites), volcanogenic_massive_sulfide (VMS), orogenic_gold (mesothermal / lode gold / greenstone-hosted quartz veins), layered_mafic_ultramafic (Ni-Cu-PGE / Bushveld-type), komatiite_hosted_nickel (komatiite-associated Ni sulfide), porphyry (porphyry copper / porphyry molybdenum / porphyry gold)]                                                                                          1
+Name: count, dtype: int64
+
+ANALYSIS: COMMODITY PRODUCTION & LOCATION
+=============================================
+
+--- Copper Production Summary ---
+Total mines producing Copper: 387
+Location breakdown:
+country
+Canada                                    103
+Mexico                                     35
+United States of America                   34
+Chile                                      21
+Peru                                       18
+Argentina                                  14
+Australia                                  11
+Ecuador                                    10
+United States of America (USA)              9
+Colombia                                    8
+United States                               8
+Brazil                                      7
+Turkey                                      6
+Spain                                       6
+Democratic Republic of the Congo (DRC)      5
+Papua New Guinea                            5
+South Africa                                5
+Democratic Republic of the Congo            4
+Eritrea                                     4
+Democratic Republic of Congo (DRC)          4
+Zambia                                      4
+Mongolia                                    4
+Dominican Republic                          3
+Russia                                      3
+Ethiopia                                    3
+Democratic Republic of Congo                2
+Finland                                     2
+Tanzania                                    2
+Philippines                                 2
+Kazakhstan                                  2
+Romania                                     2
+Chile and Argentina                         2
+Portugal                                    2
+Serbia                                      2
+Nicaragua                                   2
+Macedonia                                   2
+Indonesia                                   2
+Republic of South Africa                    1
+Botswana                                    1
+Panama                                      1
+Bulgaria                                    1
+Sudan                                       1
+Malaysia                                    1
+Saudi Arabia                                1
+Republic of the Philippines                 1
+the People’s Republic of China              1
+United States of America (U.S.A.)           1
+Armenia                                     1
+México                                      1
+Sweden and Finland                          1
+Sweden                                      1
+the United States of America                1
+England                                     1
+Perú                                        1
+Namibia                                     1
+Slovakia                                    1
+Venezuela                                   1
+Guyana                                      1
+the United States of America (USA)          1
+Ivory Coast (Côte d’Ivoire)                 1
+Bosnia and Herzegovina                      1
+United States of America (US)               1
+the United Kingdom                          1
+Republic of Ecuador                         1
+Name: count, dtype: int64
+
+--- Lead Production Summary ---
+Total mines producing Lead: 151
+Location breakdown:
+country
+Canada                                35
+Mexico                                34
+Peru                                  15
+United States of America              12
+Australia                              6
+Brazil                                 4
+Ecuador                                4
+United States                          4
+China                                  3
+Bolivia                                3
+Argentina                              3
+Mongolia                               3
+Guatemala                              2
+México                                 2
+United States of America (USA)         2
+Spain                                  2
+Colombia                               2
+Portugal                               2
+Turkey                                 1
+the People’s Republic of China         1
+the United States of America           1
+Thailand                               1
+Armenia                                1
+USA                                    1
+Democratic Republic of Congo (DRC)     1
+Poland                                 1
+Honduras                               1
+Bosnia and Herzegovina                 1
+Namibia                                1
+the United States of America (USA)     1
+Republic of Ecuador                    1
+Name: count, dtype: int64
+
+--- Zinc Production Summary ---
+Total mines producing Zinc: 190
+Location breakdown:
+country
+Canada                                    51
+Mexico                                    40
+Peru                                      17
+United States of America                  13
+Australia                                  6
+United States                              6
+Brazil                                     5
+United States of America (USA)             4
+Ecuador                                    4
+Eritrea                                    3
+China                                      3
+Mongolia                                   3
+Bolivia                                    3
+Guatemala                                  2
+Turkey                                     2
+the United States of America (USA)         2
+Argentina                                  2
+Spain                                      2
+Portugal                                   2
+Thailand                                   1
+Dominican Republic                         1
+Saudi Arabia                               1
+the People’s Republic of China             1
+Democratic Republic of the Congo (DRC)     1
+Poland                                     1
+México                                     1
+Sweden                                     1
+the United States of America               1
+Armenia                                    1
+USA                                        1
+Democratic Republic of Congo (DRC)         1
+Ethiopia                                   1
+Honduras                                   1
+England                                    1
+Bosnia and Herzegovina                     1
+Serbia                                     1
+Namibia                                    1
+the United Kingdom                         1
+Republic of Ecuador                        1
+Name: count, dtype: int64
+
+--- Iron Production Summary ---
+Total mines producing Iron: 62
+Location breakdown:
+country
+Canada                            35
+Chile                              5
+Australia                          4
+Malaysia                           2
+Sweden and Finland                 2
+Ukraine                            2
+United States of America (USA)     2
+Mexico                             2
+United States of America           2
+Sweden                             1
+Brazil                             1
+Republic of the Philippines        1
+Guatemala                          1
+Ivory Coast (Côte d’Ivoire)        1
+Finland                            1
+Name: count, dtype: int64
+
+--- Gold Production Summary ---
+Total mines producing Gold: 786
+Location breakdown:
+country
+Canada                                227
+Mexico                                 95
+United States of America               56
+United States                          33
+Brazil                                 31
+Argentina                              27
+Australia                              23
+Peru                                   19
+Chile                                  15
+Colombia                               15
+Ecuador                                12
+Ghana                                  11
+Burkina Faso                           11
+United States of America (USA)          9
+Turkey                                  9
+Mongolia                                9
+South Africa                            8
+Senegal                                 8
+the United States of America (USA)      7
+Guyana                                  7
+Côte d’Ivoire                           7
+Armenia                                 6
+Mali                                    6
+Finland                                 5
+Eritrea                                 5
+Bulgaria                                5
+Guatemala                               5
+Nicaragua                               5
+Russian Federation                      4
+Papua New Guinea                        4
+Spain                                   4
+Ethiopia                                4
+Serbia                                  4
+Romania                                 4
+United States of America (U.S.A.)       4
+Venezuela                               4
+Dominican Republic                      3
+the United States of America            3
+Portugal                                3
+Philippines                             3
+New Zealand                             3
+Democratic Republic of Congo            2
+Malaysia                                2
+Russia                                  2
+Macedonia                               2
+Guinea                                  2
+Panama                                  2
+Chile and Argentina                     2
+México                                  2
+Perú                                    2
+Tanzania                                2
+Liberia                                 2
+French Guiana                           2
+Zimbabwe                                2
+Republic of Serbia                      2
+Republic of Colombia                    2
+Sudan                                   2
+Democratic Republic of the Congo        2
+Democratic Republic of Congo (DRC)      1
+El Salvador                             1
+the People’s Republic of China          1
+Kazakhstan                              1
+People's Republic of China              1
+China                                   1
+Slovakia                                1
+Saudi Arabia                            1
+Fiji                                    1
+Sweden and Finland                      1
+Republic of Namibia                     1
+Indonesia                               1
+Republic of the Philippines             1
+United Kingdom                          1
+Mauritania                              1
+the Republic of Liberia                 1
+USA                                     1
+Bosnia and Herzegovina                  1
+Republic of Mali                        1
+Nigeria                                 1
+Namibia                                 1
+Kosovo                                  1
+Bolivia                                 1
+Republic of Ecuador                     1
+Name: count, dtype: int64
+
+--- Silver Production Summary ---
+Total mines producing Silver: 549
+Location breakdown:
+country
+Canada                                    122
+Mexico                                     97
+United States of America                   49
+Peru                                       27
+United States                              25
+Argentina                                  25
+Colombia                                   14
+Ecuador                                    12
+Chile                                      11
+United States of America (USA)             10
+Australia                                   8
+Brazil                                      8
+Armenia                                     6
+Turkey                                      6
+Bolivia                                     6
+Mongolia                                    6
+Nicaragua                                   5
+Guatemala                                   5
+Eritrea                                     4
+United States of America (U.S.A.)           4
+Russian Federation                          4
+Bulgaria                                    4
+Russia                                      3
+New Zealand                                 3
+China                                       3
+Dominican Republic                          3
+Ethiopia                                    3
+Spain                                       3
+Papua New Guinea                            3
+the United States of America (USA)          3
+Burkina Faso                                3
+Philippines                                 3
+Democratic Republic of Congo (DRC)          3
+Zambia                                      2
+the United States of America                2
+Perú                                        2
+Romania                                     2
+Chile and Argentina                         2
+Panama                                      2
+Democratic Republic of the Congo (DRC)      2
+México                                      2
+Republic of Colombia                        2
+Morocco                                     2
+Portugal                                    2
+Côte d’Ivoire                               2
+Republic of Serbia                          2
+El Salvador                                 1
+Thailand                                    1
+Saudi Arabia                                1
+Malaysia                                    1
+Botswana                                    1
+Republic of Namibia                         1
+Finland                                     1
+Republic of the Philippines                 1
+the People’s Republic of China              1
+Indonesia                                   1
+Poland                                      1
+French Guiana                               1
+Venezuela                                   1
+United Kingdom                              1
+USA                                         1
+Macedonia                                   1
+Slovakia                                    1
+South Africa                                1
+Guyana                                      1
+Honduras                                    1
+Bosnia and Herzegovina                      1
+Serbia                                      1
+Guinea                                      1
+Namibia                                     1
+Kingdom of Morocco                          1
+Democratic Republic of the Congo            1
+Kosovo                                      1
+Republic of Ecuador                         1
+Name: count, dtype: int64
+
+--- Sulphur Production Summary ---
+Total mines producing Sulphur: 21
+Location breakdown:
+country
+Canada                            5
+United States of America (USA)    2
+Australia                         1
+Zambia                            1
+United States of America          1
+Bulgaria                          1
+China                             1
+Romania                           1
+Russia                            1
+Serbia                            1
+Spain                             1
+Turkey                            1
+Mongolia                          1
+Finland                           1
+Brazil                            1
+Republic of Serbia                1
+Name: count, dtype: int64
+
+ANALYSIS: OPEN PIT MINING COSTS
+===================================
