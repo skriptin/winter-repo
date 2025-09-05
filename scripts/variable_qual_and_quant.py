@@ -1,4 +1,5 @@
 from helpers import exploder, datahelp, summaries
+import matplotlib.pyplot as plt
 import pandas as pd
 import os
 
@@ -59,11 +60,11 @@ cols_to_make_numeric = [
     'zinc_metallurgical_recovery',
 
     'lead_price',
-    "lead_cutoff_grade"
+    "lead_cut_off_grade",
     'lead_metallurgical_recovery',
 
     'iron_price',
-    "iron_cutoff_grade",
+    "iron_cut_off_grade",
     'iron_metallurgical_recovery',
 
     # 🔹 Exchange Rates
@@ -113,9 +114,12 @@ for col in excluded_cols:
         print(f"  > AN EXCEPTION OCCURRED while processing column: '{col}'. Error: {e}")
 
 full_report = "".join(report_parts)
-
-
-with open("../reports/overall_summary.txt", "w", encoding="utf-8") as f:
+with open("../reports/overall_summary/overall_summary.txt", "w", encoding="utf-8") as f:
     f.write("      DataFrame Overall Summary Report     \n")
     f.write("../reports/overall_summary.txt")
     f.write(full_report)
+
+
+# Numerical plots
+pth = "../reports/overall_summary/numeric_plots.pdf"
+summaries.plot_numeric_histograms_to_pdf(df,cols_to_make_numeric, pth)

@@ -33,6 +33,13 @@ def create_pandas_df(conn):
 
     return wide_df
 
-
 def save_to_csv(df, pth="dataframe.csv"):
     df.to_csv(pth, index=False )
+
+
+
+def query_to_df(query):
+    """
+    Creates a dataframe from an SQL query
+    """
+    pass
